@@ -6,7 +6,7 @@
     <title>Ghaam Paani - Weather App</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="bg-body" class="default-bg">
     <div class="weather-card">
         <h2>कइसन बा मौसम?</h2>
         <div class="search-box">
@@ -16,10 +16,31 @@
         
         <div class="result-box">
             <h3 id="city-name">---</h3>
+            <img id="weather-icon" src="" alt="" style="display: none; margin: 0 auto; width: 80px;">
             <p id="temp">-- °C</p>
             <p id="desc">--</p>
         </div>
+
+        <!-- Naya Extra Metrics Section -->
+        <div class="details-box" id="details-box" style="display: none;">
+            <div class="detail-item">
+                <span class="detail-label">Feels Like</span>
+                <span class="detail-value" id="feels-like">--</span>
+            </div>
+            <div class="detail-item">
+                <span class="detail-label">Humidity</span>
+                <span class="detail-value" id="humidity">--</span>
+            </div>
+            <div class="detail-item">
+                <span class="detail-label">Wind Speed</span>
+                <span class="detail-value" id="wind-speed">--</span>
+            </div>
+        </div>
+
+        <div class="forecast-container" id="forecast-box" style="display: none;">
+            <!-- Forecast cards JavaScript se banyenge -->
+        </div>
     </div>
-    <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
