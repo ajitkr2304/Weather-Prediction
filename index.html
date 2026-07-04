@@ -1,46 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ghaam Paani - Weather App</title>
+    <title>Weather Prediction System</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body id="bg-body" class="default-bg">
+
     <div class="weather-card">
-        <h2>कइसन बा मौसम?</h2>
+
+        <!-- Top Bar -->
+        <div class="top-bar">
+
+            <h2>🌦 Weather App</h2>
+
+            <button id="theme-btn">
+                🌙
+            </button>
+
+        </div>
+
+        <!-- Search Box -->
+
         <div class="search-box">
-            <input type="text" id="city-input" placeholder="Enter city name...">
-            <button id="search-btn">Check</button>
+
+            <input
+                type="text"
+                id="city-input"
+                placeholder="Enter city name...">
+
+            <button id="search-btn">
+                Search
+            </button>
+
         </div>
-        
+
+        <!-- Loading Spinner -->
+
+        <div id="loader" class="loader" style="display:none;"></div>
+
+        <!-- Error Box -->
+
+        <div id="error-box" class="error-box" style="display:none;">
+
+            <p id="error-text"></p>
+
+        </div>
+
+        <!-- Weather Result -->
+
         <div class="result-box">
-            <h3 id="city-name">---</h3>
-            <img id="weather-icon" src="" alt="" style="display: none; margin: 0 auto; width: 80px;">
-            <p id="temp">-- °C</p>
-            <p id="desc">--</p>
+
+            <h3 id="city-name">
+                ---
+            </h3>
+
+            <img
+                id="weather-icon"
+                src=""
+                alt=""
+                style="display:none;width:90px;margin:auto;">
+
+            <p id="temp">
+                -- °C
+            </p>
+
+            <p id="desc">
+                --
+            </p>
+
         </div>
 
-        <!-- Naya Extra Metrics Section -->
-        <div class="details-box" id="details-box" style="display: none;">
+        <!-- Weather Details -->
+
+        <div
+            class="details-box"
+            id="details-box"
+            style="display:none;">
+
             <div class="detail-item">
-                <span class="detail-label">Feels Like</span>
-                <span class="detail-value" id="feels-like">--</span>
+
+                <span class="detail-label">
+                    Feels Like
+                </span>
+
+                <span
+                    class="detail-value"
+                    id="feels-like">
+                    --
+                </span>
+
             </div>
+
             <div class="detail-item">
-                <span class="detail-label">Humidity</span>
-                <span class="detail-value" id="humidity">--</span>
+
+                <span class="detail-label">
+                    Humidity
+                </span>
+
+                <span
+                    class="detail-value"
+                    id="humidity">
+                    --
+                </span>
+
             </div>
+
             <div class="detail-item">
-                <span class="detail-label">Wind Speed</span>
-                <span class="detail-value" id="wind-speed">--</span>
+
+                <span class="detail-label">
+                    Wind Speed
+                </span>
+
+                <span
+                    class="detail-value"
+                    id="wind-speed">
+                    --
+                </span>
+
             </div>
+
         </div>
 
-        <div class="forecast-container" id="forecast-box" style="display: none;">
-            <!-- Forecast cards JavaScript se banyenge -->
+        <!-- 3 Day Forecast -->
+
+        <div
+            class="forecast-container"
+            id="forecast-box"
+            style="display:none;">
+
         </div>
+
     </div>
+
     <script src="script.js"></script>
+
 </body>
+
 </html>
