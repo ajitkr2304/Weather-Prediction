@@ -94,7 +94,7 @@ https://www.weatherapi.com/
 
 ### Weather Result
 <img width="1908" height="1028" alt="image" src="https://github.com/user-attachments/assets/2bea2816-abd3-4028-b1b0-bfb5edc3d9d9" />
-<img width="1912" height="1022" alt="image" src="https://github.com/user-attachments/assets/b59d2a3b-05cb-428b-9673-8fc3f3a1ae5e" />
+<img width="1912" height="1026" alt="image" src="https://github.com/user-attachments/assets/7c19a017-f55f-46d8-82d4-acb49ab477ec" />
 
 ---
 
