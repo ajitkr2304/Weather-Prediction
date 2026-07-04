@@ -89,18 +89,12 @@ WeatherAPI
 https://www.weatherapi.com/
 
 ---
-
-## 📸 Screenshots
-
 ### Home Page
-
-<img width="1907" height="993" alt="image" src="https://github.com/user-attachments/assets/33bd408c-dc57-4c96-b3ac-95e9f30ff32a" />
-
+<img width="1918" height="1037" alt="image" src="https://github.com/user-attachments/assets/089f703a-59ad-4f87-8195-474271c82f86" />
 
 ### Weather Result
-
-<img width="1863" height="1030" alt="image" src="https://github.com/user-attachments/assets/7ecad9c8-a9b1-41d0-a1f8-cd791acd5a50" />
-
+<img width="1908" height="1028" alt="image" src="https://github.com/user-attachments/assets/2bea2816-abd3-4028-b1b0-bfb5edc3d9d9" />
+<img width="1912" height="1022" alt="image" src="https://github.com/user-attachments/assets/b59d2a3b-05cb-428b-9673-8fc3f3a1ae5e" />
 
 ---
 
