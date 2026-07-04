@@ -4,7 +4,7 @@ A modern and responsive Weather Prediction Web Application that provides real-ti
 
 ## 🚀 Live Demo
 
-🔗 https://YOUR-NETLIFY-URL.netlify.app
+🔗https://weather-predicition-ajit-kumar04.netlify.app/
 
 ## 📂 GitHub Repository
 
@@ -94,11 +94,13 @@ https://www.weatherapi.com/
 
 ### Home Page
 
-(Add Screenshot Here)
+<img width="1907" height="993" alt="image" src="https://github.com/user-attachments/assets/33bd408c-dc57-4c96-b3ac-95e9f30ff32a" />
+
 
 ### Weather Result
 
-(Add Screenshot Here)
+<img width="1863" height="1030" alt="image" src="https://github.com/user-attachments/assets/7ecad9c8-a9b1-41d0-a1f8-cd791acd5a50" />
+
 
 ---
 
